@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,SAAS,CAAT,IAAS;AACT,SAAS,CAAT,UAAS;AACT,SAAS,CAAT,SAAS;AAET,AAAA,IAAI,CAAC;EACJ,WAAW,EAAE,uBAAuB;CACpC",
+    "sources": [
+        "../index.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}
