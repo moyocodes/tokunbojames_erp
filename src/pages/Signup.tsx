@@ -6,6 +6,28 @@ const Signup: React.FC = () => {
   return (
     <Layout>
       <form className="w-full" method="post">
+      <div className="mb-6 flex flex-col">
+          <label className="text-xs text-primary mb-1 uppercase" htmlFor="fullName">
+            Email
+          </label>
+          <input
+            className="bg-transparent border-b border-primary focus:outline-none focus:bg-transparent hover:bg-transparent py-2 text-sm text-primary placeholder-primary-lighter"
+            placeholder="Enter Email"
+            type="email"
+            name="email"
+          />
+        </div>
+        <div className="mb-6 flex flex-col">
+          <label className="text-xs text-primary mb-1 uppercase" htmlFor="fullName">
+            Phone Number
+          </label>
+          <input
+            className="bg-transparent border-b border-primary focus:outline-none focus:bg-transparent hover:bg-transparent py-2 text-sm text-primary placeholder-primary-lighter"
+            placeholder="Enter Phone Number"
+            type="tel"
+            name="tel"
+          />
+        </div>
         <div className="mb-6 flex flex-col">
           <label className="text-xs text-primary mb-1 uppercase" htmlFor="fullName">
             Full Name
@@ -30,15 +52,16 @@ const Signup: React.FC = () => {
         </div>
         <div className="mb-6 flex flex-col">
           <label className="text-xs text-primary mb-1 uppercase" htmlFor="fullName">
-            Email
+            Confirm Password
           </label>
           <input
             className="bg-transparent border-b border-primary focus:outline-none focus:bg-transparent hover:bg-transparent py-2 text-sm text-primary placeholder-primary-lighter"
-            placeholder="Enter Email"
-            type="email"
-            name="email"
+            placeholder="Enter Password"
+            type="password"
+            name="password_confirmation"
           />
         </div>
+       
         <div className="mb-8 flex items-center">
           <input type="checkbox" />
           <span className="text-xs text-primary ml-3">

@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Gill Sans", sans-serif;
+  
 }
 
 .ReactModal__Overlay.ReactModal__Overlay--after-open {

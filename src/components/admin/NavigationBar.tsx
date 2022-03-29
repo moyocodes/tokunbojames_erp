@@ -27,7 +27,7 @@ const NavigationBar: React.FC<NavProps> = ({ isOpen, setOpen }) => {
 
   return (
     <div className="" ref={targetRef}>
-      <div className={`${isOpen ? "w-60" : "w-14"} transition duration-500 bg-secondary text-white h-screen overflow-hidden`}>
+      <div className={`${isOpen ? "w-60" : "w-14"} transition duration-500 bg-primary text-white h-screen overflow-hidden`}>
         <div className="flex flex-col py-4">
           {/* <div className="flex justify-start items-center">
             <div className="mr-2">
